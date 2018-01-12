@@ -1,4 +1,4 @@
-$(document).ready(function)(){
+$(document).ready(function(){
   $("#track_form").submit(function(event){
     var question1 = $("input[name=question1]:checked").val();
     var question2 = $("input[name=question2]:checked").val();
@@ -9,7 +9,7 @@ $(document).ready(function)(){
     var question7 = $("input[name=question7]:checked").val();
     var question8 = $("input[name=question8]:checked").val();
     var question9 = $("input[name=question9]:checked").val();
-    var question10o = $("input[name=question10]:checked").val();
+    var question10 = $("input[name=question10]:checked").val();
 
     var result = 0;
 
@@ -19,128 +19,129 @@ $(document).ready(function)(){
     else if(question1 === "Answer2"){
       result = result + 2;
     }
-    else if(question1 === "Knowledge"){
+    else if(question1 === "Answer3"){
       result = result + 3;
     }
-    else if(question1 === "Bravery"){
+    else if(question1 === "Answer4"){
       result = result + 4;
     }
 
-    if(question2 === "Loyalty"){
+    if(question2 === "Answer1"){
       result = result + 1;
     }
-    else if(question2 === "Success"){
+    else if(question2 === "Answer2"){
       result = result + 2;
     }
-    else if(question2 === "Knowledge"){
+    else if(question2 === "Answer3"){
       result = result + 3;
     }
-    else if(question2 === "Bravery"){
+    else if(question2 === "Answer4"){
       result = result + 4;
     }
 
-    if(question3 === "Loyalty"){
+    if(question3 === "Answer1"){
       result = result + 1;
     }
-    else if(question3 === "Success"){
+    else if(question3 === "Answer2"){
       result = result + 2;
     }
-    else if(question3 === "Knowledge"){
+    else if(question3 === "Answer3"){
       result = result + 3;
     }
-    else if(question3 === "Bravery"){
+    else if(question3 === "Answer4"){
       result = result + 4;
     }
 
-    if(question4 === "Loyalty"){
+    if(question4 === "Answer1"){
       result = result + 1;
     }
-    else if(question4 === "Success"){
+    else if(question4 === "Answer2"){
       result = result + 2;
     }
-    else if(question4 === "Knowledge"){
+    else if(question4 === "Answer3"){
       result = result + 3;
     }
-    else if(question4 === "Bravery"){
+    else if(question4 === "Answer4"){
       result = result + 4;
     }
 
-    if(question5 === "Loyalty"){
+    if(question5 === "Answer1"){
       result = result + 1;
     }
-    else if(question5 === "Success"){
+    else if(question5 === "Answer2"){
       result = result + 2;
     }
-    else if(question5 === "Knowledge"){
+    else if(question5 === "Answer3"){
       result = result + 3;
     }
-    else if(question5 === "Bravery"){
+    else if(question5 === "Answer4"){
       result = result + 4;
     }
 
-    if(question6 === "Loyalty"){
+    if(question6 === "Answer1"){
       result = result + 1;
     }
-    else if(question6 === "Success"){
+    else if(question6 === "Answer2"){
       result = result + 2;
     }
-    else if(question6 === "Knowledge"){
+    else if(question6 === "Answer3"){
       result = result + 3;
     }
-    else if(question6 === "Bravery"){
+    else if(question6 === "Answer4"){
       result = result + 4;
     }
 
-    if(question7 === "Loyalty"){
+    if(question7 === "Answer1"){
       result = result + 1;
     }
-    else if(question7 === "Success"){
+    else if(question7 === "Answer2"){
       result = result + 2;
     }
-    else if(question7 === "Knowledge"){
+    else if(question7 === "Answer3"){
       result = result + 3;
     }
-    else if(question7 === "Bravery"){
+    else if(question7 === "Answer4"){
       result = result + 4;
     }
 
-    if(question8 === "Loyalty"){
+    if(question8 === "Answer1"){
       result = result + 1;
     }
-    else if(question8 === "Success"){
+    else if(question8 === "Answer2"){
       result = result + 2;
     }
-    else if(question8 === "Knowledge"){
+    else if(question8 === "Answer3"){
       result = result + 3;
     }
-    else if(question8 === "Bravery"){
+    else if(question8 === "Answer4"){
       result = result + 4;
     }
 
-    if(question9 === "Loyalty"){
+    if(question9 === "Answer1"){
       result = result + 1;
     }
-    else if(question9 === "Success"){
+    else if(question9 === "Answer2"){
       result = result + 2;
     }
-    else if(question9 === "Knowledge"){
+    else if(question9 === "Answer3"){
       result = result + 3;
     }
-    else if(question9 === "Bravery"){
+    else if(question9 === "Answer4"){
       result = result + 4;
     }
 
-    if(question10 === "Loyalty"){
+    if(question10 === "Answer1"){
       result = result + 1;
     }
-    else if(question10 === "Success"){
+    else if(question10 === "Answer2"){
       result = result + 2;
     }
-    else if(question10 === "Knowledge"){
+    else if(question10 === "Answer3"){
       result = result + 3;
     }
-    else if(question10 === "Bravery"){
+    else if(question10 === "Answer4"){
       result = result + 4;
+
     }
 
     if(result >=1 && result <=10){
