@@ -1,8 +1,25 @@
-#c ,#java ,#php ,#ruby {
+#c ,#java ,#php ,#ruby{
   display:none;
 }
 
+h1{
+  text-align: center;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.jumbotron{
+  font-size: 90px;
+}
 
 .container{
   width: 600px;
+}
+
+body{
+
+  background-color: #7FB3D5;
+}
+
+.well{
+  border: 2px solid black;
 }

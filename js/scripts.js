@@ -27,16 +27,16 @@ $(document).ready(function(){
     }
 
     if(question2 === "Answer1"){
-      result = result + 1;
-    }
-    else if(question2 === "Answer2"){
       result = result + 2;
     }
-    else if(question2 === "Answer3"){
+    else if(question2 === "Answer2"){
       result = result + 3;
     }
-    else if(question2 === "Answer4"){
+    else if(question2 === "Answer3"){
       result = result + 4;
+    }
+    else if(question2 === "Answer4"){
+      result = result + 1;
     }
 
     if(question3 === "Answer1"){
@@ -53,23 +53,23 @@ $(document).ready(function(){
     }
 
     if(question4 === "Answer1"){
-      result = result + 1;
+      result = result + 4;
     }
     else if(question4 === "Answer2"){
       result = result + 2;
     }
     else if(question4 === "Answer3"){
-      result = result + 3;
+      result = result + 1;
     }
     else if(question4 === "Answer4"){
-      result = result + 4;
+      result = result + 3;
     }
 
     if(question5 === "Answer1"){
-      result = result + 1;
+      result = result + 2;
     }
     else if(question5 === "Answer2"){
-      result = result + 2;
+      result = result + 1;
     }
     else if(question5 === "Answer3"){
       result = result + 3;
@@ -79,10 +79,10 @@ $(document).ready(function(){
     }
 
     if(question6 === "Answer1"){
-      result = result + 1;
+      result = result + 2;
     }
     else if(question6 === "Answer2"){
-      result = result + 2;
+      result = result + 1;
     }
     else if(question6 === "Answer3"){
       result = result + 3;
@@ -105,13 +105,13 @@ $(document).ready(function(){
     }
 
     if(question8 === "Answer1"){
-      result = result + 1;
+      result = result + 3;
     }
     else if(question8 === "Answer2"){
       result = result + 2;
     }
     else if(question8 === "Answer3"){
-      result = result + 3;
+      result = result + 1;
     }
     else if(question8 === "Answer4"){
       result = result + 4;
@@ -121,40 +121,40 @@ $(document).ready(function(){
       result = result + 1;
     }
     else if(question9 === "Answer2"){
-      result = result + 2;
+      result = result + 3;
     }
     else if(question9 === "Answer3"){
-      result = result + 3;
+      result = result + 2;
     }
     else if(question9 === "Answer4"){
       result = result + 4;
     }
 
     if(question10 === "Answer1"){
-      result = result + 1;
-    }
-    else if(question10 === "Answer2"){
       result = result + 2;
     }
+    else if(question10 === "Answer2"){
+      result = result + 1;
+    }
     else if(question10 === "Answer3"){
-      result = result + 3;
+      result = result + 4;
     }
     else if(question10 === "Answer4"){
-      result = result + 4;
+      result = result + 3;
 
     }
 
-    if(result >=1 && result <=10){
+    if(result >=10 && result <=17){
       $("#c").toggle();
     }
-    else if(result >= 11 && result <=20){
+    else if(result >= 18 && result <=27){
       $("#java").toggle();
     }
-    else if(result >= 21 && result <=30){
-      $("#php").toggle();
-    }
-    else if(result >= 31 && result <=40){
+    else if(result >= 28 && result <=34){
       $("#ruby").toggle();
+    }
+    else if(result >= 35 && result <=40){
+      $("#php").toggle();
     }
       event.preventDefault();
   });
