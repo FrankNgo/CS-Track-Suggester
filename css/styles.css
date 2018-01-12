@@ -1,3 +1,8 @@
+#c ,#java ,#php ,#ruby {
+  display:none;
+}
+
+
 .container{
   width: 600px;
 }
