@@ -31,9 +31,9 @@ No Additional deployment notes.
 
 ## Built With
 
-* [HTML] - The web framework used
-* [Javascript] - The programming language used
-* [CSS] - Style Library
+* HTML - The web framework used
+* Javascript - The programming language used
+* CSS - Style Library
 * [bootstrap](https://getbootstrap.com/docs/3.3/) - Style Library
 * [jquery](https://jquery.com/download/) - Javascript Library
 
